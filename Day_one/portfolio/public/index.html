@@ -17,31 +17,26 @@
       <li><a href="#tools">Tools</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
+      <li><a href="login.html">Login</a></li>
     </ul>
   </nav>
 
   <section id="home">
-    <h1>Hi, I'm Kalkidan Asdro</h1>
-    <p>Frontend Developer in the making.</p>
+    <img class src="kal.jpg" alt="Photo">
+    <h1 id="name"></h1>
+    <p id="tagline"></p>
     <button id="greetBtn">Say hi</button>
     <p id="greetMsg"></p>
   </section>
 
   <section id="about">
     <h2>About Me</h2>
-    <p>I'm learning HTML, CSS and JavaScript, and building small projects along the way. Aspiring to build different websites to make life little easier.</p>
+    <p id="aboutText"></p>
   </section>
 
   <section id="skills">
     <h2>Skills</h2>
-    <ul id="skillList">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>C++</li>
-      <li>&#46 NET</li>
-      <li>Git &amp; GitHub</li>
-    </ul>
+    <ul id="skillList"></ul>
   </section>
 
   <section id="tools">
@@ -60,18 +55,48 @@
 
   <section id="projects">
     <h2>Projects</h2>
-    <ul id="projectList">
-      <li>Python console game(Number Guessing)</li>
-      <li>Authorization(PHP)</li>
-      <li>Personal Portfolio</li>
-      <li>Employee Directory Layout</li>
-      <li>Clone different layouts</li>
-    </ul>
+    <ul id="projectList"></ul>
+    <!-- <ul id="projectList">
+      <li><a class="projectLink" href="https://github.com/yoadin/Python_Games.git">Python console game&#46</a></li>
+      <li><a class="projectLink" href="https://github.com/yoadin/Login_system.git">Authorization(PHP)</a></li>
+      <li><a class="projectLink" href="https://github.com/yoadin/Employee-Directory.git">Personal Portfolio</a></li>
+      <li><a class="projectLink" href="https://github.com/yoadin/Employee-Directory.git">Employee Directory Layout</a></li>
+      <li><a class="projectLink" href="https://github.com/yoadin/instagram_clone.git">Clone different layouts</a></li>
+    </ul> -->
   </section>
 
   <section id="contact">
+
     <h2>Contact</h2>
-    <p>Email me at: kalkidanasdro11@gmail.com</p>
+
+    <form id="contactForm">
+
+      <input
+      type="text"
+      id="contactName"
+      placeholder="Your Name"
+      required>
+
+      <input
+      type="email"
+      id="contactEmail"
+      placeholder="Your Email"
+      required>
+
+      <textarea
+      id="contactMessage"
+      placeholder="Your Message"
+      required>
+      </textarea>
+
+      <button type="submit">
+      Send
+      </button>
+
+    </form>
+
+    <p id="status"></p>
+
   </section>
 
   <footer>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+
+<body>
+
+<div class="dashboard">
+
+<h1>Admin Dashboard</h1>
+
+
+<section class="card">
+
+<h2>Profile</h2>
+
+<input id="name">
+
+<input id="tagline">
+
+<textarea id="about"></textarea>
+
+<button id="saveProfile">
+Save Profile
+</button>
+
+</section>
+
+<input
+id="newSkill"
+type="text"
+placeholder="New Skill">
+
+<button id="addSkill">
+Add Skill
+</button>
+
+<section class="card">
+
+<h2>Skills</h2>
+
+<ul id="skills"></ul>
+
+</section>
+
+
+<section class="card">
+
+<h2>Projects</h2>
+<input id="projectTitle" type="text" placeholder="Project Title">
+
+<input id="projectUrl" type="text" placeholder="Project URL">
+
+<button id="addProject">Add Project</button>
+
+<div id="projects"></div>
+
+
+</section>
+
+
+</div>
+
+
+<script src="admin.js"></script>
+
+</body>
+
+</html>

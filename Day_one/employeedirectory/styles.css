@@ -60,7 +60,7 @@ h1, h2{
 .empolyees-card img{
     width: 120px;
     height: 120px;
-    border-radius: 50%;
+    border-radius: 45%;
     object-fit: cover;
     margin-bottom: 15px;
 }

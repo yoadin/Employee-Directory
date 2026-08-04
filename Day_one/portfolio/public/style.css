@@ -52,6 +52,14 @@ section {
   background: #f4f4f4;
 }
 
+#home img{
+    width: 120px;
+    height: 120px;
+    border-radius: 35%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
 button {
   margin-top: 15px;
   padding: 10px 20px;
@@ -66,7 +74,7 @@ button:hover {
   background: #1a252f;
 }
 
-#skillList {
+#skills {
   list-style: none;
   margin-top: 15px;
   display: flex;
@@ -75,7 +83,7 @@ button:hover {
   gap: 10px;
 }
  
-#skillList li {
+#skills li {
   background: #2c3e50;
   color: #fff;
   padding: 8px 16px;
@@ -100,16 +108,53 @@ button:hover {
   font-size: 0.9rem;
 }
 
-#projectList {
-  list-style: none;
+#projects {
+  display: grid;
   margin-top: 15px;
+  gap: 15px;
 }
 
-#projectList li {
+#projects div{
   background: #f4f4f4;
-  padding: 10px;
-  margin-bottom: 8px;
-  border-radius: 5px;
+  padding: 15px;
+  transition: 0.3s;
+  border-radius: 8px;
+}
+
+#projects div:hover{
+  background: #cec7c7;
+  transform: translateY(-3px);
+}
+
+#projects a {
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+
+#projects a:hover {
+  text-decoration: underline;
+}
+
+.login-container,
+.contact-container {
+
+    max-width:400px;
+    margin:50px auto;
+    padding:30px;
+
+}
+
+
+input,
+textarea {
+
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:5px;
+    border:1px solid #ccc;
+
 }
 
 footer {
@@ -119,7 +164,7 @@ footer {
   color: #fff;
 }
 
-/* Responsive */
+
 @media (max-width: 600px) {
   nav {
     flex-direction: column;

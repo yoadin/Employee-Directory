@@ -1,0 +1,33 @@
+{
+  "profile": {
+    "name": "Kalkidan Asdro",
+    "tagline": "Backend Developer in the making.",
+    "about": "I'm learning Frontend Web Development, and building small projects along the way. Aspiring to build different websites to make life little easier. Aspiring to become Mobile Application Developer."
+  },
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "C++",
+    "Python",
+    "Java",
+    ".NET",
+    "Git & GitHub"
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Python Console Game"
+    },
+    {
+      "id": 2,
+      "title": "Authorization (PHP)",
+      "url": "https://github.com/yoadin/Login_system.git"
+    },
+    {
+      "id": 3,
+      "title": "Personal Portfolio",
+      "url": "https://github.com/yoadin/Employee-Directory.git"
+    }
+  ]
+}

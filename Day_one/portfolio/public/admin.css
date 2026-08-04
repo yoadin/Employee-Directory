@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+}
+
+
+.dashboard {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.card {
+
+    background: white;
+    padding: 30px;
+    margin-bottom: 30px;
+
+    border-radius: 10px;
+
+}
+
+
+h2 {
+    margin-bottom: 20px;
+}
+
+
+input,
+textarea {
+
+    width: 100%;
+    padding: 12px;
+
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    font-size: 16px;
+
+}
+
+
+textarea {
+
+    min-height: 120px;
+    resize: vertical;
+
+}
+
+
+button {
+
+    padding: 12px 25px;
+
+    background: #2c3e50;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
+
+
+button:hover {
+
+    background: #1a252f;
+
+}
+
+
+ul {
+
+    list-style: none;
+
+}
+
+
+li {
+
+    background: #eee;
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+
+}
+
+.project-card {
+
+    background: #f4f4f4;
+
+    padding: 20px;
+
+    margin-bottom: 15px;
+
+    border-radius: 10px;
+
+}
+
+
+.project-card h3 {
+
+    margin-bottom: 10px;
+
+}
+
+
+.project-card a {
+
+    display: block;
+
+    margin-bottom: 15px;
+
+    color: #2c3e50;
+
+}
+
+
+.project-card button {
+
+    padding: 8px 15px;
+
+}
