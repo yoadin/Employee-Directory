@@ -1,0 +1,53 @@
+name: ecommerce_app
+description: "A production-quality Flutter e-commerce app using the Fake Store API."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  flutter_rating_bar: ^4.0.1
+
+  # State management
+  flutter_riverpod: ^2.6.1
+
+  # Routing
+  go_router: ^15.1.1
+
+  # HTTP
+  dio: ^5.8.0+1
+
+  # Local storage
+  shared_preferences: ^2.3.3
+  hive_flutter: ^1.1.0
+
+  # Connectivity
+  connectivity_plus: ^6.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  mocktail: ^1.0.4
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
